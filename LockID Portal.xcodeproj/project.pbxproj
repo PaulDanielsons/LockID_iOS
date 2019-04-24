@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370391BB216D5B220041D680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370391BA216D5B220041D680 /* AppDelegate.swift */; };
+		370391BD216D5B220041D680 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370391BC216D5B220041D680 /* HomeViewController.swift */; };
+		370391C2216D5B240041D680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370391C1216D5B240041D680 /* Assets.xcassets */; };
+		370391C5216D5B240041D680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370391C3216D5B240041D680 /* LaunchScreen.storyboard */; };
+		370391CF216D96A80041D680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370391CE216D96A80041D680 /* Main.storyboard */; };
+		374677B4223C5F8D00B7E217 /* LockID_API.png in Resources */ = {isa = PBXBuildFile; fileRef = 374677B3223C5F8D00B7E217 /* LockID_API.png */; };
+		37500522221CDC690083F4E2 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37500521221CDC690083F4E2 /* QRViewController.swift */; };
+		3772B6262239FD3300089241 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772B6252239FD3300089241 /* OnboardingViewController.swift */; };
+		379063E62213B3720075ED95 /* BluetoothTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379063E42213B3710075ED95 /* BluetoothTableViewCell.swift */; };
+		379063E92213B3D40075ED95 /* BluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379063E82213B3D40075ED95 /* BluetoothViewController.swift */; };
+		37E6236622433F2A00200AF3 /* Searching.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37E6236522433F2A00200AF3 /* Searching.gif */; };
+		37E6236C22434A1C00200AF3 /* connecting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37E6236B22434A1C00200AF3 /* connecting.gif */; };
+		37E6236F22440E9F00200AF3 /* OHCircleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E6236E22440E9F00200AF3 /* OHCircleSegue.swift */; };
+		37EC3036222F41CD00F9A6F2 /* LockID.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37EC3034222F41CD00F9A6F2 /* LockID.xcdatamodeld */; };
+		37EC305A2230981200F9A6F2 /* GifAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC30592230981200F9A6F2 /* GifAnimation.swift */; };
+		37EC305C2230983600F9A6F2 /* animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37EC305B2230983600F9A6F2 /* animation.gif */; };
+		37EC305E2230AC1400F9A6F2 /* homeAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37EC305D2230AC1300F9A6F2 /* homeAnimation.gif */; };
+		37EC30602230E3C500F9A6F2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC305F2230E3C500F9A6F2 /* SettingsViewController.swift */; };
+		37EC30632234620700F9A6F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC30622234620700F9A6F2 /* LoginViewController.swift */; };
+		4B3A2E7B8DF44BED4D76C42A /* Pods_LockID_Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03307904B3B195B688B914E /* Pods_LockID_Portal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		370391B7216D5B220041D680 /* LockID Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LockID Portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		370391BA216D5B220041D680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		370391BC216D5B220041D680 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		370391C1216D5B240041D680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		370391C4216D5B240041D680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		370391C6216D5B240041D680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370391CE216D96A80041D680 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		374677B3223C5F8D00B7E217 /* LockID_API.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LockID_API.png; sourceTree = "<group>"; };
+		37500521221CDC690083F4E2 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		3772B6252239FD3300089241 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		379063E42213B3710075ED95 /* BluetoothTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothTableViewCell.swift; sourceTree = "<group>"; };
+		379063E82213B3D40075ED95 /* BluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothViewController.swift; sourceTree = "<group>"; };
+		37E6236522433F2A00200AF3 /* Searching.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Searching.gif; sourceTree = "<group>"; };
+		37E6236B22434A1C00200AF3 /* connecting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = connecting.gif; sourceTree = "<group>"; };
+		37E6236E22440E9F00200AF3 /* OHCircleSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OHCircleSegue.swift; sourceTree = "<group>"; };
+		37EC3035222F41CD00F9A6F2 /* LockID.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LockID.xcdatamodel; sourceTree = "<group>"; };
+		37EC30592230981200F9A6F2 /* GifAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifAnimation.swift; sourceTree = "<group>"; };
+		37EC305B2230983600F9A6F2 /* animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation.gif; sourceTree = "<group>"; };
+		37EC305D2230AC1300F9A6F2 /* homeAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = homeAnimation.gif; sourceTree = "<group>"; };
+		37EC305F2230E3C500F9A6F2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		37EC30622234620700F9A6F2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		549AB376F52AB6A2F692E8D0 /* Pods-LockID Portal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockID Portal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LockID Portal/Pods-LockID Portal.debug.xcconfig"; sourceTree = "<group>"; };
+		63C44C7A1555B70DCE908B42 /* Pods-LockID Portal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockID Portal.release.xcconfig"; path = "Pods/Target Support Files/Pods-LockID Portal/Pods-LockID Portal.release.xcconfig"; sourceTree = "<group>"; };
+		C03307904B3B195B688B914E /* Pods_LockID_Portal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LockID_Portal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		370391B4216D5B220041D680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3A2E7B8DF44BED4D76C42A /* Pods_LockID_Portal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370391AE216D5B220041D680 = {
+			isa = PBXGroup;
+			children = (
+				370391B9216D5B220041D680 /* LockID Portal */,
+				370391B8216D5B220041D680 /* Products */,
+				C4F4FF79942A82C25E0AAC62 /* Pods */,
+				63FB85A1CE1ECF58D1D9871C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		370391B8216D5B220041D680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370391B7216D5B220041D680 /* LockID Portal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370391B9216D5B220041D680 /* LockID Portal */ = {
+			isa = PBXGroup;
+			children = (
+				37E6236D22440E9100200AF3 /* Segues */,
+				37DD36B3223C4E9A00E58282 /* Data */,
+				379063E22213AEA90075ED95 /* Components */,
+				370391BA216D5B220041D680 /* AppDelegate.swift */,
+				370391C3216D5B240041D680 /* LaunchScreen.storyboard */,
+				370391CE216D96A80041D680 /* Main.storyboard */,
+				3772B6252239FD3300089241 /* OnboardingViewController.swift */,
+				37EC30622234620700F9A6F2 /* LoginViewController.swift */,
+				370391BC216D5B220041D680 /* HomeViewController.swift */,
+				37EC305F2230E3C500F9A6F2 /* SettingsViewController.swift */,
+				370391C6216D5B240041D680 /* Info.plist */,
+			);
+			path = "LockID Portal";
+			sourceTree = "<group>";
+		};
+		379063E22213AEA90075ED95 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				37EC3058223097AC00F9A6F2 /* GIF */,
+				379063EA2213B4730075ED95 /* QR */,
+				379063E32213B3520075ED95 /* Bluetooth */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		379063E32213B3520075ED95 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				379063E42213B3710075ED95 /* BluetoothTableViewCell.swift */,
+				379063E82213B3D40075ED95 /* BluetoothViewController.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		379063EA2213B4730075ED95 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				374677B3223C5F8D00B7E217 /* LockID_API.png */,
+				37500521221CDC690083F4E2 /* QRViewController.swift */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		37DD36B3223C4E9A00E58282 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				370391C1216D5B240041D680 /* Assets.xcassets */,
+				37EC3034222F41CD00F9A6F2 /* LockID.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		37E6236D22440E9100200AF3 /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				37E6236E22440E9F00200AF3 /* OHCircleSegue.swift */,
+			);
+			path = Segues;
+			sourceTree = "<group>";
+		};
+		37EC3058223097AC00F9A6F2 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				37E6236522433F2A00200AF3 /* Searching.gif */,
+				37E6236B22434A1C00200AF3 /* connecting.gif */,
+				37EC305D2230AC1300F9A6F2 /* homeAnimation.gif */,
+				37EC305B2230983600F9A6F2 /* animation.gif */,
+				37EC30592230981200F9A6F2 /* GifAnimation.swift */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+		63FB85A1CE1ECF58D1D9871C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C03307904B3B195B688B914E /* Pods_LockID_Portal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4F4FF79942A82C25E0AAC62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				549AB376F52AB6A2F692E8D0 /* Pods-LockID Portal.debug.xcconfig */,
+				63C44C7A1555B70DCE908B42 /* Pods-LockID Portal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370391B6216D5B220041D680 /* LockID Portal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370391C9216D5B240041D680 /* Build configuration list for PBXNativeTarget "LockID Portal" */;
+			buildPhases = (
+				C545DEDB12199956AE745CF4 /* [CP] Check Pods Manifest.lock */,
+				370391B3216D5B220041D680 /* Sources */,
+				370391B4216D5B220041D680 /* Frameworks */,
+				370391B5216D5B220041D680 /* Resources */,
+				9472320DF4BF4F6462FD47AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LockID Portal";
+			productName = "LockID Portal";
+			productReference = 370391B7216D5B220041D680 /* LockID Portal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		370391AF216D5B220041D680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Paul Danielsons";
+				TargetAttributes = {
+					370391B6216D5B220041D680 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 370391B2216D5B220041D680 /* Build configuration list for PBXProject "LockID Portal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 370391AE216D5B220041D680;
+			productRefGroup = 370391B8216D5B220041D680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370391B6216D5B220041D680 /* LockID Portal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		370391B5216D5B220041D680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370391C5216D5B240041D680 /* LaunchScreen.storyboard in Resources */,
+				37E6236C22434A1C00200AF3 /* connecting.gif in Resources */,
+				37EC305C2230983600F9A6F2 /* animation.gif in Resources */,
+				370391C2216D5B240041D680 /* Assets.xcassets in Resources */,
+				37E6236622433F2A00200AF3 /* Searching.gif in Resources */,
+				374677B4223C5F8D00B7E217 /* LockID_API.png in Resources */,
+				370391CF216D96A80041D680 /* Main.storyboard in Resources */,
+				37EC305E2230AC1400F9A6F2 /* homeAnimation.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9472320DF4BF4F6462FD47AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LockID Portal/Pods-LockID Portal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LockID Portal/Pods-LockID Portal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C545DEDB12199956AE745CF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LockID Portal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370391B3216D5B220041D680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EC30632234620700F9A6F2 /* LoginViewController.swift in Sources */,
+				37EC3036222F41CD00F9A6F2 /* LockID.xcdatamodeld in Sources */,
+				37500522221CDC690083F4E2 /* QRViewController.swift in Sources */,
+				37EC305A2230981200F9A6F2 /* GifAnimation.swift in Sources */,
+				379063E92213B3D40075ED95 /* BluetoothViewController.swift in Sources */,
+				370391BD216D5B220041D680 /* HomeViewController.swift in Sources */,
+				37E6236F22440E9F00200AF3 /* OHCircleSegue.swift in Sources */,
+				370391BB216D5B220041D680 /* AppDelegate.swift in Sources */,
+				3772B6262239FD3300089241 /* OnboardingViewController.swift in Sources */,
+				379063E62213B3720075ED95 /* BluetoothTableViewCell.swift in Sources */,
+				37EC30602230E3C500F9A6F2 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		370391C3216D5B240041D680 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370391C4216D5B240041D680 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		370391C7216D5B240041D680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		370391C8216D5B240041D680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370391CA216D5B240041D680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549AB376F52AB6A2F692E8D0 /* Pods-LockID Portal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWBD4SCGVH;
+				INFOPLIST_FILE = "LockID Portal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pauldanielsons.LockID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		370391CB216D5B240041D680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C44C7A1555B70DCE908B42 /* Pods-LockID Portal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWBD4SCGVH;
+				INFOPLIST_FILE = "LockID Portal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pauldanielsons.LockID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		370391B2216D5B220041D680 /* Build configuration list for PBXProject "LockID Portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370391C7216D5B240041D680 /* Debug */,
+				370391C8216D5B240041D680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370391C9216D5B240041D680 /* Build configuration list for PBXNativeTarget "LockID Portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370391CA216D5B240041D680 /* Debug */,
+				370391CB216D5B240041D680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37EC3034222F41CD00F9A6F2 /* LockID.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37EC3035222F41CD00F9A6F2 /* LockID.xcdatamodel */,
+			);
+			currentVersion = 37EC3035222F41CD00F9A6F2 /* LockID.xcdatamodel */;
+			path = LockID.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 370391AF216D5B220041D680 /* Project object */;
+}
